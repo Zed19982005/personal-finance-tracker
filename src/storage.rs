@@ -1,10 +1,10 @@
 use crate::models::Transaction;
 use anyhow::Result;
-use serde_json;
 use std::fs::{File, OpenOptions};
 use std::io::{BufReader, BufWriter};
 use std::path::Path;
 
+/// 从JSON文件加载交易记录
 pub fn load_transactions(file_path: &Path) -> Result<Vec<Transaction>> {
     if !file_path.exists() {
         return Ok(Vec::new());
@@ -16,6 +16,7 @@ pub fn load_transactions(file_path: &Path) -> Result<Vec<Transaction>> {
     Ok(transactions)
 }
 
+/// 保存交易记录到JSON文件
 pub fn save_transactions(file_path: &Path, transactions: &[Transaction]) -> Result<()> {
     let file = OpenOptions::new()
         .write(true)
