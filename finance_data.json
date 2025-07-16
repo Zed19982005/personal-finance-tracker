@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "amount": 15.0,
+    "category": "chifan",
+    "date": "2025-07-16T19:17:04.635970800+08:00",
+    "transaction_type": "Expense"
+  },
+  {
+    "id": 2,
+    "amount": 15.0,
+    "category": "吃饭",
+    "date": "2025-07-16T19:17:11.641561+08:00",
+    "transaction_type": "Expense"
+  },
+  {
+    "id": 3,
+    "amount": 15.0,
+    "category": "chifan",
+    "date": "2025-07-16T19:18:29.862915900+08:00",
+    "transaction_type": "Expense"
+  },
+  {
+    "id": 4,
+    "amount": 3000.0,
+    "category": "dagong",
+    "date": "2025-07-16T19:18:54.219493900+08:00",
+    "transaction_type": "Income"
+  },
+  {
+    "id": 5,
+    "amount": 2000.0,
+    "category": "dagong",
+    "date": "2025-07-16T19:19:18.776+08:00",
+    "transaction_type": "Expense"
+  },
+  {
+    "id": 6,
+    "amount": 16.0,
+    "category": "吃饭",
+    "date": "2025-07-16T19:23:12.617340700+08:00",
+    "transaction_type": "Expense"
+  },
+  {
+    "id": 7,
+    "amount": 3000.0,
+    "category": "打工",
+    "date": "2025-07-16T19:23:23.643217+08:00",
+    "transaction_type": "Income"
+  }
+]

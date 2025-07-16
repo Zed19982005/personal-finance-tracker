@@ -1,0 +1,13 @@
+[package]
+name = "personal-finance-tracker"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }  # 启用 serde 支持
+serde = { version = "1.0", features = ["derive"] } # 序列化
+serde_json = "1.0"   # JSON 支持
+csv = "1.2"          # CSV 支持
+clap = { version = "4.0", features = ["derive"] } # 命令行解析
+anyhow = "1.0"       # 错误处理
+rustyline = "10.0"   # 交互式命令行
